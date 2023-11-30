@@ -1,0 +1,10 @@
+<h3>Agregar</h3>
+<hr>
+<form (ngSubmit)="agregar()">
+  <input type="text" name="matricula" [(ngModel)]="regAlumno.matricula" placeholder="matricula">
+  <input type="text" name="nombre" [(ngModel)]="regAlumno.nombre" placeholder="Nombre">
+  <input type="text" name="apaterno" [(ngModel)]="regAlumno.apaterno" placeholder="Apaterno">
+  <input type="text" name="amaterno" [(ngModel)]="regAlumno.amaterno" placeholder="Amaterno">
+  <input type="email" name="correo" [(ngModel)]="regAlumno.correo" placeholder="Correo">
+  <button type="submit" class="btn btn-primary">Agrergar</button>
+</form>
